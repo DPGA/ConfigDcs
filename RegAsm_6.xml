@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+  <!-- -->
+  <REG TITLE="FrontEnd" ADDRESS="0x0020" VALUE="0x0016" SIZE="1" RW="1" COMMENT="Rw_Register : Front End Identifier" />
+  <REG TITLE="Mode" ADDRESS="0x0021" VALUE="0x48c0" SIZE="1" RW="1" COMMENT="Rw_Register : Acquisition Mode" />
+  <REG TITLE="Conf_Strobe" ADDRESS="0x0022" VALUE="0x00000000" SIZE="2" RW="1" COMMENT="Rw_Register	: Configuration Strobe" />
+  <!-- DAC_CM -->
+  <REG TITLE="Dac_Cm_0" ADDRESS="0x0024" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 0" />
+  <REG TITLE="Dac_Cm_1" ADDRESS="0x0025" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 1" />
+  <REG TITLE="Dac_Cm_2" ADDRESS="0x0026" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 2" />
+  <REG TITLE="Dac_Cm_3" ADDRESS="0x0027" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 3" />
+  <REG TITLE="Dac_Cm_4" ADDRESS="0x0028" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 4" />
+  <REG TITLE="Dac_Cm_5" ADDRESS="0x0029" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 5" />
+  <REG TITLE="Dac_Cm_6" ADDRESS="0x002a" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 6" />
+  <REG TITLE="Dac_Cm_7" ADDRESS="0x002b" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 7" />
+  <REG TITLE="Dac_Cm_8" ADDRESS="0x002c" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 8" />
+  <REG TITLE="Dac_Cm_9" ADDRESS="0x002d" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 9" />
+  <REG TITLE="Dac_Cm_10" ADDRESS="0x002e" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 10" />
+  <REG TITLE="Dac_Cm_11" ADDRESS="0x002f" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 11" />
+  <REG TITLE="Dac_Cm_12" ADDRESS="0x0030" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 12" />
+  <REG TITLE="Dac_Cm_13" ADDRESS="0x0031" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 13" />
+  <REG TITLE="Dac_Cm_14" ADDRESS="0x0032" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 14" />
+  <REG TITLE="Dac_Cm_15" ADDRESS="0x0033" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 15" />
+  <REG TITLE="Dac_Cm_16" ADDRESS="0x0034" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 16" />
+  <REG TITLE="Dac_Cm_17" ADDRESS="0x0035" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 17" />
+  <REG TITLE="Dac_Cm_18" ADDRESS="0x0036" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 18" />
+  <REG TITLE="Dac_Cm_19" ADDRESS="0x0037" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 19" />
+  <REG TITLE="Dac_Cm_20" ADDRESS="0x0038" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 20" />
+  <REG TITLE="Dac_Cm_21" ADDRESS="0x0039" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 21" />
+  <REG TITLE="Dac_Cm_22" ADDRESS="0x003a" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 22" />
+  <REG TITLE="Dac_Cm_23" ADDRESS="0x003b" VALUE="0x280" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Cm Channel 23" />
+  <REG TITLE="Threshold_low_0" ADDRESS="0x003c" VALUE="0x1D0" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 0" />
+  <REG TITLE="Threshold_High_0" ADDRESS="0x003d" VALUE="0x340" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 0" />
+  <REG TITLE="Threshold_low_1" ADDRESS="0x003e" VALUE="0x1d0" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 1" />
+  <REG TITLE="Threshold_High_1" ADDRESS="0x003f" VALUE="0x340" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 1" />
+  <REG TITLE="Threshold_low_2" ADDRESS="0x0040" VALUE="0x0340" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 2" />
+  <REG TITLE="Threshold_High_2" ADDRESS="0x0041" VALUE="0x0410" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 2" />
+  <REG TITLE="Threshold_low_3" ADDRESS="0x0042" VALUE="0x0340" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 3" />
+  <REG TITLE="Threshold_High_3" ADDRESS="0x0043" VALUE="0x0410" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 3" />
+  <REG TITLE="Threshold_low_4" ADDRESS="0x0044" VALUE="0x0340" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 4" />
+  <REG TITLE="Threshold_High_4" ADDRESS="0x0045" VALUE="0x0410" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 4" />
+  <REG TITLE="Threshold_low_5" ADDRESS="0x0046" VALUE="0x0340" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 5" />
+  <REG TITLE="Threshold_High_5" ADDRESS="0x0047" VALUE="0x410" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 5" />
+  <REG TITLE="Threshold_low_6" ADDRESS="0x0048" VALUE="0x0340" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 6" />
+  <REG TITLE="Threshold_High_6" ADDRESS="0x0049" VALUE="0x410" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 6" />
+  <REG TITLE="Threshold_low_7" ADDRESS="0x004a" VALUE="0x340" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 7" />
+  <REG TITLE="Threshold_High_7" ADDRESS="0x004b" VALUE="0x0410" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 7" />
+  <REG TITLE="Threshold_low_8" ADDRESS="0x004c" VALUE="0x01d0" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 8" />
+  <REG TITLE="Threshold_High_8" ADDRESS="0x004d" VALUE="0x0b88" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 8" />
+  <REG TITLE="Threshold_low_9" ADDRESS="0x004e" VALUE="0x1D0" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 9" />
+  <REG TITLE="Threshold_High_9" ADDRESS="0x004f" VALUE="0x6cdb" SIZE="1" RW="1" COMMENT="Rw_Register : High ThreReadFifoshold Channel 9" />
+  <REG TITLE="Threshold_low_10" ADDRESS="0x0050" VALUE="0x1D0" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 10" />
+  <REG TITLE="Threshold_High_10" ADDRESS="0x0051" VALUE="0x3dc8" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 10" />
+  <REG TITLE="Threshold_low_11" ADDRESS="0x0052" VALUE="0x1D0" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 11" />
+  <REG TITLE="Threshold_High_11" ADDRESS="0x0053" VALUE="0x53b5" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 11" />
+  <REG TITLE="Threshold_low_12" ADDRESS="0x0054" VALUE="0x1D0" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 12" />
+  <REG TITLE="Threshold_High_12" ADDRESS="0x0055" VALUE="0x77c8" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 12" />
+  <REG TITLE="Threshold_low_13" ADDRESS="0x0056" VALUE="0x1D0" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 13" />
+  <REG TITLE="Threshold_High_13" ADDRESS="0x0057" VALUE="0x6984" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 13" />
+  <REG TITLE="Threshold_low_14" ADDRESS="0x0058" VALUE="0x1D0" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 14" />
+  <REG TITLE="Threshold_High_14" ADDRESS="0x0059" VALUE="0x1b65" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 14" />
+  <REG TITLE="Threshold_low_15" ADDRESS="0x005a" VALUE="0x1D0" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 15" />
+  <REG TITLE="Threshold_High_15" ADDRESS="0x005b" VALUE="0x2138" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 15" />
+  <REG TITLE="Threshold_low_16" ADDRESS="0x005c" VALUE="0x01d0" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 16" />
+  <REG TITLE="Threshold_High_16" ADDRESS="0x005d" VALUE="0x0340" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 16" />
+  <REG TITLE="Threshold_low_17" ADDRESS="0x005e" VALUE="0x01d0" SIZE="1" RW="1" COMMENT="Rw_Register : Low  ThreReadFifoshold Channel 17" />
+  <REG TITLE="Threshold_High_17" ADDRESS="0x005f" VALUE="0x0340" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 17" />
+  <REG TITLE="Threshold_low_18" ADDRESS="0x0060" VALUE="0x1D0" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 18" />
+  <REG TITLE="Threshold_High_18" ADDRESS="0x0061" VALUE="0x6fca" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 18" />
+  <REG TITLE="Threshold_low_19" ADDRESS="0x0062" VALUE="0x1D0" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 19" />
+  <REG TITLE="Threshold_High_19" ADDRESS="0x0063" VALUE="0x43a2" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 19" />
+  <REG TITLE="Threshold_low_20" ADDRESS="0x0064" VALUE="0x621b" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 20" />
+  <REG TITLE="Threshold_High_20" ADDRESS="0x0065" VALUE="0x1D0" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 20" />
+  <REG TITLE="Threshold_low_21" ADDRESS="0x0066" VALUE="0x3352" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 21" />
+  <REG TITLE="Threshold_High_21" ADDRESS="0x0067" VALUE="0x1D0" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 21" />
+  <REG TITLE="Threshold_low_22" ADDRESS="0x0068" VALUE="0x1D0" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 22" />
+  <REG TITLE="Threshold_High_22" ADDRESS="0x0069" VALUE="0x340" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 22" />
+  <REG TITLE="Threshold_low_23" ADDRESS="0x006a" VALUE="0x1D0" SIZE="1" RW="1" COMMENT="Rw_Register : Low  Threshold Channel 23" />
+  <REG TITLE="Threshold_High_23" ADDRESS="0x006b" VALUE="0x0a1a" SIZE="1" RW="1" COMMENT="Rw_Register : High Threshold Channel 23" />
+  <!-- Jitter Cleaner -->
+  <REG TITLE="Jitter_Clean_0" ADDRESS="0x006c" VALUE="0xEB120120" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 0" />
+  <REG TITLE="Jitter_Clean_1" ADDRESS="0x006e" VALUE="0xEB120121" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 1" />
+  <REG TITLE="Jitter_Clean_2" ADDRESS="0x0070" VALUE="0xEB120102" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 2" />
+  <REG TITLE="Jitter_Clean_3" ADDRESS="0x0072" VALUE="0xEB600203" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 3" />
+  <REG TITLE="Jitter_Clean_4" ADDRESS="0x0074" VALUE="0x68860314" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 4" />
+  <REG TITLE="Jitter_Clean_5" ADDRESS="0x0076" VALUE="0x10040Eb5" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 5" />
+  <REG TITLE="Jitter_Clean_6" ADDRESS="0x0078" VALUE="0x04ce0186" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 6" />
+  <REG TITLE="Jitter_Clean_7" ADDRESS="0x007a" VALUE="0xbd887877" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 7" />
+  <REG TITLE="Jitter_Clean_8" ADDRESS="0x007c" VALUE="0x20009d98" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 8" />  
+  
+  <!-- DAC ROFS -->
+  <REG TITLE="DacRofs_0" ADDRESS="0x007e" VALUE="0x250" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Rofs 0" />
+  <REG TITLE="DacRofs_1" ADDRESS="0x007f" VALUE="0x250" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Rofs 1" />
+  <REG TITLE="DacRofs_2" ADDRESS="0x0080" VALUE="0x250" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Rofs 2" />
+  <REG TITLE="DacRofs_3" ADDRESS="0x0081" VALUE="0x250" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Rofs 3" />
+  <REG TITLE="DacRofs_4" ADDRESS="0x0082" VALUE="0x250" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Rofs 4" />
+  <REG TITLE="DacRofs_5" ADDRESS="0x0083" VALUE="0x250" SIZE="1" RW="1" COMMENT="Rw_Register : Dac Rofs 5" />
+  <REG TITLE="NbSamples" ADDRESS="0x0084" VALUE="0x400"	SIZE="1" RW="1" COMMENT="Rw_Register : Number of Samples" />
+  <REG TITLE="ChannelRead" ADDRESS="0x0085" VALUE="0x0e96" SIZE="1" RW="1" COMMENT="Rw_Register : Channel to Read " />
+  <REG TITLE="Width_Delay_High" ADDRESS="0x0086" VALUE="0x2c8c" SIZE="1" RW="1" COMMENT="Rw_Register	: Width Delay High State" />
+  <REG TITLE="Width_Delay_Low" ADDRESS="0x0087" VALUE="0x018a" SIZE="1" RW="1" COMMENT="Rw_Register	: Width Delay Low State" />
+  <REG TITLE="Filter_Thr_H" ADDRESS="0x0088" VALUE="0x0000000" SIZE="2" RW="1" COMMENT="Rw_Register	: Filter Threshold High State" />
+  <REG TITLE="Filter_Thr_L" ADDRESS="0x008a" VALUE="0x0010101" SIZE="2" RW="1" COMMENT="Rw_Register	: Filter Threshold Low State" />
+  <REG TITLE="Blonde_Offset" ADDRESS="0x008c" VALUE="0x222e" SIZE="1" RW="1" COMMENT="Rw_Register : Blonde TimeStamp Offset" />
+  <!-- -->
+  <!-- Read  Only Registers -->
+  <REG TITLE="BoardId" 	ADDRESS="0x0000" VALUE="0x00000000" SIZE="2" RW="0" SUBTYPE="string" COMMENT="Rd_Register : Board Identifier" />
+  <REG TITLE="BoardSN" 	ADDRESS="0x0002" VALUE="0x00000000" SIZE="2" RW="0" COMMENT="Rd_Register : Board Serial Number " />
+  <REG TITLE="HWRev_Maj" ADDRESS="0x0004" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Hardware revision ex : 1.00" />
+  <REG TITLE="HWRev_Min" ADDRESS="0x0005" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Hardware revision ex : 1.00" />
+  <REG TITLE="FWRev_Maj" ADDRESS="0x0006" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Firmware revision ex : 1.00" />
+  <REG TITLE="FWRev_Min" ADDRESS="0x0007" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Firmware revision ex : 1.00" />
+  <REG TITLE="BuildDate" ADDRESS="0x0008" VALUE="0x00000000" SIZE="2" RW="0" COMMENT="Rd_Register : Build Date" />
+  <REG TITLE="BuildTime" ADDRESS="0x000a" VALUE="0x00000000" SIZE="2" RW="0" COMMENT="Rd_Register : Build Time" />
+  <REG TITLE="AddrConf" ADDRESS="0x000c" VALUE="0x00000000" SIZE="2" RW="0" COMMENT="Rd_Register : Address Configuration" />
+  <REG TITLE="Stat_GXB" ADDRESS="0x000e" VALUE="0x00000000" SIZE="2" RW="0" COMMENT="Rd_Register : Status GBX" />
+  <REG TITLE="Cpt_Single_Msb" ADDRESS="0x0010" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Single Counter " />
+  <REG TITLE="Cpt_Single_Mid" ADDRESS="0x0011" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Single Counter " />
+  <REG TITLE="Cpt_Single_Lsb" ADDRESS="0x0012" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Single Counter 	" />
+  <REG TITLE="Cpt_Sgl_Veto_Msb" ADDRESS="0x0013" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Single Veto Counter " />
+  <REG TITLE="Cpt_Sgl_Veto_Mid" ADDRESS="0x0014" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Single Veto Counter " />
+  <REG TITLE="Cpt_Sgl_Veto_Lsb" ADDRESS="0x0015" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Single Veto Counter " />
+  <REG TITLE="Cpt_Clk64_Msb" ADDRESS="0x0016" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Clock64 Counter " />
+  <REG TITLE="Cpt_Clk64_Mid" ADDRESS="0x0017" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Clock64 Counter " />
+  <REG TITLE="Cpt_Clk64_Lsb" ADDRESS="0x0018" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Clock64 Counter " />
+  <REG TITLE="Cpt_64Inib_Msb" ADDRESS="0x0019" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Inhibit64 Counter" />
+  <REG TITLE="Cpt_64Inib_Mid" ADDRESS="0x001a" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Inhibit64 Counter" />
+  <REG TITLE="Cpt_64Inib_Lsb" ADDRESS="0x001b" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Inhibit64 Counter" />
+  <REG TITLE="Cpt_Trigin_Msb" ADDRESS="0x001c" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Trigger In Counter" />
+  <REG TITLE="Cpt_Trigin_Mid" ADDRESS="0x001d" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Trigger In Counter" />
+  <REG TITLE="Cpt_Trigin_Lsb" ADDRESS="0x001e" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Trigger In Counter" />
+  <REG TITLE="Pll_Lock" ADDRESS="0x001f" VALUE="0x0000" SIZE="1" RW="0" COMMENT="Rd_Register : Pll Locked" />
+  <!-- -->
+</CATALOG>

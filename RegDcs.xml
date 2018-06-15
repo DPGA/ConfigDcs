@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CNFG>
+	<!-- -->
+	<NAME TITLE="DPGA_IP"		ID="192.168.2.100"	ACTIVED="1"		COMMENT="DPGA DCS IP Address" />
+	<NAME TITLE="DPGA_PORT"		ID="8888"				ACTIVED="1"		COMMENT="DPGA DCS Port" />
+	<NAME TITLE="MODE"			ID="10"					ACTIVED="1"		COMMENT="DEFAULT MODE" />
+	<NAME TITLE="SAMPLES"		ID="1024"				ACTIVED="1"		COMMENT="DEFAULT NUMBER SAMPLES" />
+	<NAME TITLE="VERBOSE"		ID="2"					ACTIVED="1"		COMMENT="DEFAULT VERBOSE LEVEL" />
+	<NAME TITLE="NIOSVERBOSE"	ID="1"					ACTIVED="1"		COMMENT="DEFAULT NIOS VERBOSE LEVEL" />
+	<NAME TITLE="DAQSEQUENCE"	ID="0x1111"				ACTIVED="1"		COMMENT="DEFAULT DAQ SEQUENCE 0x201" />
+	<NAME TITLE="DIRECTORY"		ID="0"	    			        DIR="/datas"		COMMENT="Directory to record datas"></NAME>
+	<!-- Asm -->
+	<NAME TITLE="AsmFE_0"		ID="0x10"				ACTIVED="1"		COMMENT="Asm Front End 0" />
+	<NAME TITLE="AsmFE_1"		ID="0x11"				ACTIVED="0"		COMMENT="Asm Front End 1" />
+	<NAME TITLE="AsmFE_2"		ID="0x12"				ACTIVED="0"		COMMENT="Asm Front End 2" />
+	<NAME TITLE="AsmFE_3"		ID="0x13"				ACTIVED="0"		COMMENT="Asm Front End 3" />
+	<NAME TITLE="AsmFE_4"		ID="0x14"				ACTIVED="0"		COMMENT="Asm Front End 4" />
+	<NAME TITLE="AsmFE_5"		ID="0x15"				ACTIVED="0"		COMMENT="Asm Front End 5" />
+	<NAME TITLE="AsmFE_6"		ID="0x16"				ACTIVED="0"		COMMENT="Asm Front End 6" />
+	<NAME TITLE="AsmFE_7"		ID="0x17"				ACTIVED="0"		COMMENT="Asm Front End 7" />
+	<NAME TITLE="AsmFE_8"		ID="0x18"				ACTIVED="0"		COMMENT="Asm Front End 8" />
+	<NAME TITLE="AsmFE_9"		ID="0x19"				ACTIVED="0"		COMMENT="Asm Front End 9" />
+	<NAME TITLE="AsmFE_10"		ID="0x1A"				ACTIVED="0"		COMMENT="Asm Front End 10" />
+	<NAME TITLE="AsmFE_11"		ID="0x1B"				ACTIVED="0"		COMMENT="Asm Front End 11" />
+	<!-- Thor -->
+	<NAME TITLE="ThorFE_0"		ID="0x1F"				ACTIVED="0"		COMMENT="ThorFront End 0" />
+	<!-- HV -->
+	<NAME TITLE="HV_IP"			ID="127.0.0.1"			ACTIVED="1"		COMMENT="HV Server IP Address" />
+	<NAME TITLE="HV_PORT"		ID="9760"				ACTIVED="1"		COMMENT="HV Server Port" />
+	<!-- -->
+</CNFG>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+  <!-- -->
+  <REG TITLE="FrontEnd"       ADDRESS="0x0018" VALUE="0x001F"     SIZE="1" RW="1" COMMENT="Rw_Register : Front End Identifier" />
+  <REG TITLE="Trigger_Type"   ADDRESS="0X0019" VALUE="0x0003"     SIZE="1" RW="1" COMMENT="Rw_Register : Trigger Type Register" />
+  <REG TITLE="Conf_Strobe"    ADDRESS="0x001A" VALUE="0x0000"     SIZE="1" RW="1" COMMENT="Rw_Register : Configuration Strobe" />
+  <!-- Jitter Cleaner -->
+  <REG TITLE="Jitter_Clean_0" ADDRESS="0x001B" VALUE="0xEB400020" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 0" />
+  <REG TITLE="Jitter_Clean_1" ADDRESS="0x001D" VALUE="0xEB400001" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 1" />
+  <REG TITLE="Jitter_Clean_2" ADDRESS="0x001F" VALUE="0xEB400002" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 2" />
+  <REG TITLE="Jitter_Clean_3" ADDRESS="0x0021" VALUE="0xEB400023" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 3" />
+  <REG TITLE="Jitter_Clean_4" ADDRESS="0x0023" VALUE="0xEB400014" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 4" />
+  <REG TITLE="Jitter_Clean_5" ADDRESS="0x0025" VALUE="0xFC000A65" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 5" />
+  <REG TITLE="Jitter_Clean_6" ADDRESS="0x0027" VALUE="0x04BE02E6" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 6" />
+  <REG TITLE="Jitter_Clean_7" ADDRESS="0x0029" VALUE="0xBD0037F7" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 7" />
+  <REG TITLE="Jitter_Clean_8" ADDRESS="0x002B" VALUE="0x20009D98" SIZE="2" RW="1" COMMENT="Rw_Register : Jitter Cleaner MSB Register 8" />
+  <!-- -->
+  <REG TITLE="PreTrig_Mask"   ADDRESS="0x002D" VALUE="0xffffffffffff" SIZE="4" RW="1" COMMENT="Rw_Register : PreTrigger Input Mask Register" />
+  <REG TITLE="PreTrig_PedFreq"ADDRESS="0x0031" VALUE="0x31"     SIZE="1" RW="1" COMMENT="Rw_Register : PreTrigger Pedestal Frequency  Register freqin=50 Khz 2*n +2" />
+  <REG TITLE="Trig_Shape"     ADDRESS="0x0032" VALUE="0x000f"     SIZE="1" RW="1" COMMENT="Rw_Register : Trigger Signal Width Register" />
+  <REG TITLE="Trig_Delay"     ADDRESS="0x0033" VALUE="0x01F"      SIZE="1" RW="1" COMMENT="Rw_Register : Trigger Signal Delay Register " />
+  <!-- -->
+</CATALOG>

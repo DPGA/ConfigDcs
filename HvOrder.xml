@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CNFG>
+	<!-- -->
+	<NAME TITLE="HV_0"		VALUE="1300.0"	COMMENT="Hv Module 0 Main" />
+	<NAME TITLE="HV_1"		VALUE="1050.0"	COMMENT="Hv Module 0 Channel 1" />
+	<NAME TITLE="HV_2"		VALUE="1050.0"	COMMENT="Hv Module 0 Channel 2" />
+	<NAME TITLE="HV_3"		VALUE="985.0"	COMMENT="Hv Module 0 Channel 3" />
+	<NAME TITLE="HV_4"		VALUE="1050.0"	COMMENT="Hv Module 0 Channel 4" />
+	<NAME TITLE="HV_5"		VALUE="1050.0"	COMMENT="Hv Module 0 Channel 5" />
+	<NAME TITLE="HV_6"		VALUE="1030.0"	COMMENT="Hv Module 0 Channel 6" />
+	<NAME TITLE="HV_7"		VALUE="1200.0"	COMMENT="Hv Module 0 Channel 7" />
+	<NAME TITLE="HV_8"		VALUE="1050.0"	COMMENT="Hv Module 0 Channel 8" />
+	<NAME TITLE="HV_9"		VALUE="1250.0"	COMMENT="Hv Module 0 Channel 9" />
+	<NAME TITLE="HV_10"		VALUE="1050.0"	COMMENT="Hv Module 0 Channel 10" />
+	<NAME TITLE="HV_11"		VALUE="1050.0"	COMMENT="Hv Module 0 Channel 11" />
+	<NAME TITLE="HV_12"		VALUE="1050.0"	COMMENT="Hv Module 0 Channel 12" />
+	<NAME TITLE="HV_13"		VALUE="1050.0"	COMMENT="Hv Module 0 Channel 13" />
+	<NAME TITLE="HV_14"		VALUE="1050.0"	COMMENT="Hv Module 0 Channel 14" />
+	<NAME TITLE="HV_15"		VALUE="1050.0"	COMMENT="Hv Module 0 Channel 15" />
+	<!-- -->
+	<NAME TITLE="HV_16"		VALUE="1016.0"	COMMENT="Hv Module 1 Main" />
+	<NAME TITLE="HV_17"		VALUE="1017.0"	COMMENT="Hv Module 1 Channel 1" />
+	<NAME TITLE="HV_18"		VALUE="1018.0"	COMMENT="Hv Module 1 Channel 2" />
+	<NAME TITLE="HV_19"		VALUE="1019.0"	COMMENT="Hv Module 1 Channel 3" />
+	<NAME TITLE="HV_20"		VALUE="1020.0"	COMMENT="Hv Module 1 Channel 4" />
+	<NAME TITLE="HV_21"		VALUE="1021.0"	COMMENT="Hv Module 1 Channel 5" />
+	<NAME TITLE="HV_22"		VALUE="1022.0"	COMMENT="Hv Module 1 Channel 6" />
+	<NAME TITLE="HV_23"		VALUE="1023.0"	COMMENT="Hv Module 1 Channel 7" />
+	<NAME TITLE="HV_24"		VALUE="1024.0"	COMMENT="Hv Module 1 Channel 8" />
+	<NAME TITLE="HV_25"		VALUE="1025.0"	COMMENT="Hv Module 1 Channel 9" />
+	<NAME TITLE="HV_26"		VALUE="1026.0"	COMMENT="Hv Module 1 Channel 10" />
+	<NAME TITLE="HV_27"		VALUE="1027.0"	COMMENT="Hv Module 1 Channel 11" />
+	<NAME TITLE="HV_28"		VALUE="1028.0"	COMMENT="Hv Module 1 Channel 12" />
+	<NAME TITLE="HV_29"		VALUE="1029.0"	COMMENT="Hv Module 1 Channel 13" />
+	<NAME TITLE="HV_30"		VALUE="1030.0"	COMMENT="Hv Module 1 Channel 14" />
+	<NAME TITLE="HV_31"		VALUE="1031.0"	COMMENT="Hv Module 1 Channel 15" />
+	<!-- -->
+	<NAME TITLE="HV_32"		VALUE="1032.0"	COMMENT="Hv Module 2 Main" />
+	<NAME TITLE="HV_33"		VALUE="1033.0"	COMMENT="Hv Module 2 Channel 1" />
+	<NAME TITLE="HV_34"		VALUE="1034.0"	COMMENT="Hv Module 2 Channel 2" />
+	<NAME TITLE="HV_35"		VALUE="1035.0"	COMMENT="Hv Module 2 Channel 3" />
+	<NAME TITLE="HV_36"		VALUE="1036.0"	COMMENT="Hv Module 2 Channel 4" />
+	<NAME TITLE="HV_37"		VALUE="1037.0"	COMMENT="Hv Module 2 Channel 5" />
+	<NAME TITLE="HV_38"		VALUE="1038.0"	COMMENT="Hv Module 2 Channel 6" />
+	<NAME TITLE="HV_39"		VALUE="1039.0"	COMMENT="Hv Module 2 Channel 7" />
+	<NAME TITLE="HV_40"		VALUE="1040.0"	COMMENT="Hv Module 2 Channel 8" />
+	<NAME TITLE="HV_41"		VALUE="1041.0"	COMMENT="Hv Module 2 Channel 9" />
+	<NAME TITLE="HV_42"		VALUE="1042.0"	COMMENT="Hv Module 2 Channel 10" />
+	<NAME TITLE="HV_43"		VALUE="1043.0"	COMMENT="Hv Module 2 Channel 11" />
+	<NAME TITLE="HV_44"		VALUE="1044.0"	COMMENT="Hv Module 2 Channel 12" />
+	<NAME TITLE="HV_45"		VALUE="1045.0"	COMMENT="Hv Module 2 Channel 13" />
+	<NAME TITLE="HV_46"		VALUE="1046.0"	COMMENT="Hv Module 2 Channel 14" />
+	<NAME TITLE="HV_47"		VALUE="1047.0"	COMMENT="Hv Module 2 Channel 15" />
+	<!-- -->
+	<NAME TITLE="HV_48"		VALUE="1300.0"	COMMENT="Hv Module 3 Main" />
+	<NAME TITLE="HV_49"		VALUE="1100.0"	COMMENT="Hv Module 3 Channel 1" />
+	<NAME TITLE="HV_50"		VALUE="1100.0"	COMMENT="Hv Module 3 Channel 2" />
+	<NAME TITLE="HV_51"		VALUE="1100.0"	COMMENT="Hv Module 3 Channel 3" />
+	<NAME TITLE="HV_52"		VALUE="1100.0"	COMMENT="Hv Module 3 Channel 4" />
+	<NAME TITLE="HV_53"		VALUE="1100.0"	COMMENT="Hv Module 3 Channel 5" />
+	<NAME TITLE="HV_54"		VALUE="1100.0"	COMMENT="Hv Module 3 Channel 6" />
+	<NAME TITLE="HV_55"		VALUE="1100.0"	COMMENT="Hv Module 3 Channel 7" />
+	<NAME TITLE="HV_56"		VALUE="1100.0"	COMMENT="Hv Module 3 Channel 8" />
+	<NAME TITLE="HV_57"		VALUE="1100.0"	COMMENT="Hv Module 3 Channel 9" />
+	<NAME TITLE="HV_58"		VALUE="1100.0"	COMMENT="Hv Module 3 Channel 10" />
+	<NAME TITLE="HV_59"		VALUE="1100.0"	COMMENT="Hv Module 3 Channel 11" />
+	<NAME TITLE="HV_60"		VALUE="1100.0"	COMMENT="Hv Module 3 Channel 12" />
+	<NAME TITLE="HV_61"		VALUE="1100.0"	COMMENT="Hv Module 3 Channel 13" />
+	<NAME TITLE="HV_62"		VALUE="1100.0"	COMMENT="Hv Module 3 Channel 14" />
+	<NAME TITLE="HV_63"		VALUE="1100.0"	COMMENT="Hv Module 3 Channel 15" />
+	<!-- -->
+	<!-- -->
+</CNFG>
