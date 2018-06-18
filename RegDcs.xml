@@ -10,7 +10,8 @@
 	<NAME TITLE="DAQSEQUENCE"	ID="0x1111"				ACTIVED="1"		COMMENT="DEFAULT DAQ SEQUENCE 0x201" />
 	<NAME TITLE="DIRECTORY"		ID="0"	    			DIR="/datas"		COMMENT="Directory to record datas"></NAME>
 	<NAME TITLE="MONITOR"		ID="0"					PATH="/home/daq/Dpga/build/bin/visuqwt"		START="0"		COMMENT="Program monitoring" />
-	<NAME TITLE="HVSERVER"		ID="0"	PATH="/home/daq/Dpga/build/bin/ht-caen"	ARGS="--serveur 9760 --dircoeff /home/daq/Dpga/ConfigDcs/Coeff --config /home/daq/Dpga/ConfigDcs/hvconfig.xml" START="1"		COMMENT="Program Hv server" />
+	<NAME TITLE="HVSERVER"		ID="0"					PATH="/home/daq/Dpga/build/bin/ht-caen"		START="1"		COMMENT="Program Hv server" 
+		ARGS="--serveur 9760 --dircoeff /home/daq/Dpga/ConfigDcs/Coeff --config /home/daq/Dpga/ConfigDcs/hvconfig.xml" />
 	<!-- Asm -->
 	<NAME TITLE="AsmFE_0"		ID="0x10"				ACTIVED="1"		COMMENT="Asm Front End 0" />
 	<NAME TITLE="AsmFE_1"		ID="0x11"				ACTIVED="0"		COMMENT="Asm Front End 1" />
